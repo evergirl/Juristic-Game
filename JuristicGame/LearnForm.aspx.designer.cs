@@ -7,13 +7,11 @@
 // </automatisch generiert>
 //------------------------------------------------------------------------------
 
-namespace JuristicGame
-{
-
-
-    public partial class Home
-    {
-
+namespace JuristicGame {
+    
+    
+    public partial class LearnForm {
+        
         /// <summary>
         /// form1-Steuerelement
         /// </summary>
@@ -22,5 +20,32 @@ namespace JuristicGame
         /// Zum Ändern Felddeklaration aus der Designerdatei in eine Code-Behind-Datei verschieben.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
+        
+        /// <summary>
+        /// btnHomeLearn-Steuerelement
+        /// </summary>
+        /// <remarks>
+        /// Automatisch generiertes Feld
+        /// Zum Ändern Felddeklaration aus der Designerdatei in eine Code-Behind-Datei verschieben.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnHomeLearn;
+        
+        /// <summary>
+        /// tblContent-Steuerelement
+        /// </summary>
+        /// <remarks>
+        /// Automatisch generiertes Feld
+        /// Zum Ändern Felddeklaration aus der Designerdatei in eine Code-Behind-Datei verschieben.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Table tblContent;
+        
+        /// <summary>
+        /// lblTitle-Steuerelement
+        /// </summary>
+        /// <remarks>
+        /// Automatisch generiertes Feld
+        /// Zum Ändern Felddeklaration aus der Designerdatei in eine Code-Behind-Datei verschieben.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblTitle;
     }
 }

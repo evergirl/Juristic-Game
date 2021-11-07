@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="LearnForm.aspx.cs" Inherits="JuristicGame.Home" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="LearnForm.aspx.cs" Inherits="JuristicGame.LearnForm" %>
 
 <!DOCTYPE html>
 
@@ -8,10 +8,19 @@
     <title></title>
 </head>
 <body>
-    <form id="form1" runat="server">
+    <form id="form1" runat="server" OnRebindCommand="Page_Load">
         <div>
-            Learning</div>
+            <asp:Panel runat="server">
+                <asp:Button ID="btnHomeLearn" runat="server" OnClick="btnHomeLearn_Click" Text="Home" />
+                <asp:Table ID="tblContent" runat="server">
+                    <asp:TableHeaderRow>
+                        <asp:TableHeaderCell>
+                            <asp:Label ID="lblTitle" runat="server" />
+                        </asp:TableHeaderCell>
+                    </asp:TableHeaderRow>
+                </asp:Table>
+            </asp:Panel>
+        </div>
     </form>
 </body>
 </html>
-    
