@@ -7,13 +7,11 @@
 // </automatisch generiert>
 //------------------------------------------------------------------------------
 
-namespace JuristicGame
-{
-
-
-    public partial class test
-    {
-
+namespace JuristicGame {
+    
+    
+    public partial class QuizForm {
+        
         /// <summary>
         /// form1-Steuerelement
         /// </summary>
@@ -22,68 +20,176 @@ namespace JuristicGame
         /// Zum Ändern Felddeklaration aus der Designerdatei in eine Code-Behind-Datei verschieben.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
-
+        
         /// <summary>
-        /// Label1-Steuerelement
+        /// pnlQuiz-Steuerelement
         /// </summary>
         /// <remarks>
         /// Automatisch generiertes Feld
         /// Zum Ändern Felddeklaration aus der Designerdatei in eine Code-Behind-Datei verschieben.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label1;
-
+        protected global::System.Web.UI.WebControls.Panel pnlQuiz;
+        
         /// <summary>
-        /// RadioButton1-Steuerelement
+        /// btnHomeQuiz-Steuerelement
         /// </summary>
         /// <remarks>
         /// Automatisch generiertes Feld
         /// Zum Ändern Felddeklaration aus der Designerdatei in eine Code-Behind-Datei verschieben.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButton RadioButton1;
-
+        protected global::System.Web.UI.WebControls.Button btnHomeQuiz;
+        
         /// <summary>
-        /// RadioButton2-Steuerelement
+        /// lblTitle-Steuerelement
         /// </summary>
         /// <remarks>
         /// Automatisch generiertes Feld
         /// Zum Ändern Felddeklaration aus der Designerdatei in eine Code-Behind-Datei verschieben.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButton RadioButton2;
-
+        protected global::System.Web.UI.WebControls.Label lblTitle;
+        
         /// <summary>
-        /// RadioButton3-Steuerelement
+        /// lblNewQuestion-Steuerelement
         /// </summary>
         /// <remarks>
         /// Automatisch generiertes Feld
         /// Zum Ändern Felddeklaration aus der Designerdatei in eine Code-Behind-Datei verschieben.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButton RadioButton3;
-
+        protected global::System.Web.UI.WebControls.Label lblNewQuestion;
+        
         /// <summary>
-        /// RadioButton4-Steuerelement
+        /// chkNewQuestion-Steuerelement
         /// </summary>
         /// <remarks>
         /// Automatisch generiertes Feld
         /// Zum Ändern Felddeklaration aus der Designerdatei in eine Code-Behind-Datei verschieben.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButton RadioButton4;
-
+        protected global::System.Web.UI.WebControls.CheckBox chkNewQuestion;
+        
         /// <summary>
-        /// Button1-Steuerelement
+        /// txtQuestion-Steuerelement
         /// </summary>
         /// <remarks>
         /// Automatisch generiertes Feld
         /// Zum Ändern Felddeklaration aus der Designerdatei in eine Code-Behind-Datei verschieben.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button1;
-
+        protected global::System.Web.UI.WebControls.TextBox txtQuestion;
+        
         /// <summary>
-        /// Button2-Steuerelement
+        /// validtxtQuestion-Steuerelement
         /// </summary>
         /// <remarks>
         /// Automatisch generiertes Feld
         /// Zum Ändern Felddeklaration aus der Designerdatei in eine Code-Behind-Datei verschieben.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button2;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator validtxtQuestion;
+        
+        /// <summary>
+        /// tcRblAnswers-Steuerelement
+        /// </summary>
+        /// <remarks>
+        /// Automatisch generiertes Feld
+        /// Zum Ändern Felddeklaration aus der Designerdatei in eine Code-Behind-Datei verschieben.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TableCell tcRblAnswers;
+        
+        /// <summary>
+        /// rblAnswers-Steuerelement
+        /// </summary>
+        /// <remarks>
+        /// Automatisch generiertes Feld
+        /// Zum Ändern Felddeklaration aus der Designerdatei in eine Code-Behind-Datei verschieben.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RadioButtonList rblAnswers;
+        
+        /// <summary>
+        /// trAnswers-Steuerelement
+        /// </summary>
+        /// <remarks>
+        /// Automatisch generiertes Feld
+        /// Zum Ändern Felddeklaration aus der Designerdatei in eine Code-Behind-Datei verschieben.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TableRow trAnswers;
+        
+        /// <summary>
+        /// txtAnswer1-Steuerelement
+        /// </summary>
+        /// <remarks>
+        /// Automatisch generiertes Feld
+        /// Zum Ändern Felddeklaration aus der Designerdatei in eine Code-Behind-Datei verschieben.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtAnswer1;
+        
+        /// <summary>
+        /// validtxtAnswer1-Steuerelement
+        /// </summary>
+        /// <remarks>
+        /// Automatisch generiertes Feld
+        /// Zum Ändern Felddeklaration aus der Designerdatei in eine Code-Behind-Datei verschieben.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator validtxtAnswer1;
+        
+        /// <summary>
+        /// txtAnswer2-Steuerelement
+        /// </summary>
+        /// <remarks>
+        /// Automatisch generiertes Feld
+        /// Zum Ändern Felddeklaration aus der Designerdatei in eine Code-Behind-Datei verschieben.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtAnswer2;
+        
+        /// <summary>
+        /// validtxtAnswer2-Steuerelement
+        /// </summary>
+        /// <remarks>
+        /// Automatisch generiertes Feld
+        /// Zum Ändern Felddeklaration aus der Designerdatei in eine Code-Behind-Datei verschieben.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator validtxtAnswer2;
+        
+        /// <summary>
+        /// txtAnswer3-Steuerelement
+        /// </summary>
+        /// <remarks>
+        /// Automatisch generiertes Feld
+        /// Zum Ändern Felddeklaration aus der Designerdatei in eine Code-Behind-Datei verschieben.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtAnswer3;
+        
+        /// <summary>
+        /// validtxtAnswer3-Steuerelement
+        /// </summary>
+        /// <remarks>
+        /// Automatisch generiertes Feld
+        /// Zum Ändern Felddeklaration aus der Designerdatei in eine Code-Behind-Datei verschieben.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator validtxtAnswer3;
+        
+        /// <summary>
+        /// btnStart-Steuerelement
+        /// </summary>
+        /// <remarks>
+        /// Automatisch generiertes Feld
+        /// Zum Ändern Felddeklaration aus der Designerdatei in eine Code-Behind-Datei verschieben.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnStart;
+        
+        /// <summary>
+        /// btnCheck-Steuerelement
+        /// </summary>
+        /// <remarks>
+        /// Automatisch generiertes Feld
+        /// Zum Ändern Felddeklaration aus der Designerdatei in eine Code-Behind-Datei verschieben.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnCheck;
+        
+        /// <summary>
+        /// btnNewQuestion-Steuerelement
+        /// </summary>
+        /// <remarks>
+        /// Automatisch generiertes Feld
+        /// Zum Ändern Felddeklaration aus der Designerdatei in eine Code-Behind-Datei verschieben.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnNewQuestion;
     }
 }
